@@ -1,3 +1,10 @@
+import { type Handle } from '@sveltejs/kit';
+import { handle as authenticationHandle } from '~shared/services/auth';
+import { sequence } from '@sveltejs/kit/hooks';
+
+export const handle: Handle = sequence(authenticationHandle);
+
+/*
 import { lucia } from '$lib/server/auth';
 import type { Handle } from '@sveltejs/kit';
 
@@ -30,3 +37,4 @@ export const handle: Handle = async ({ event, resolve }) => {
 	event.locals.session = session;
 	return resolve(event);
 };
+ */

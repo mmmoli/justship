@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
 	import { env } from '$env/dynamic/public';
 	import Button from '$lib/components/ui/button/button.svelte';
 	import { CircleUserRound, LogOut, Ship } from 'lucide-svelte';
@@ -50,4 +50,7 @@
 		{/if}
 	</div>
 </header>
+<slot /> -->
+
+<div>Layout</div>
 <slot />
