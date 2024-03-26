@@ -5,6 +5,7 @@ declare global {
 		// interface Error {}
 		interface Locals {
 			session: import('@auth/core/types').Session | null;
+			user: import('@auth/core/types').Session['user'] | undefined;
 		}
 		// interface PageData {}
 		// interface PageState {}
