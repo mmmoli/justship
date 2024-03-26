@@ -1,5 +1,5 @@
 import { integer, sqliteTable, text, primaryKey } from 'drizzle-orm/sqlite-core';
-import type { Account } from '@auth/sveltekit';
+import type { Account } from '@auth/core';
 
 export const users = sqliteTable('user', {
 	id: text('id').notNull().primaryKey(),

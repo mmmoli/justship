@@ -4,7 +4,7 @@
 
 ### Comes With 🌟
 
-- 🚪 **Login with Google** and **Magic Link with Email** (using Lucia)
+- 🚪 **Login with Github** (using Authjs)
 - 📧 **Resend** to send emails
 - 💻 **Svelte 5**
 - 🎨 **Tailwind CSS** and **shadcn-svelte** for components (with built-in dark mode)
