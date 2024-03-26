@@ -1,5 +1,5 @@
 <script>
-	import { Button } from '$lib/components/ui/button';
+	import { Button } from '~ui/button';
 	import { Github, PiggyBank } from 'lucide-svelte';
 </script>
 
